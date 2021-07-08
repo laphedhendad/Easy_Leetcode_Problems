@@ -3,17 +3,41 @@
  */
 
 using System;
+using System.Collections.Generic;
 
 namespace Valid_Parentheses
 {
     class Program
     {
-        static public bool IsValid(string s) { 
+        static public bool IsValid(string s) {
 
+            Stack<char> stack = new Stack<char>();
+
+            foreach (char c in s)
+            {
+                if (stack.Count > 0 && c == ')' && stack.Peek() == '(')
+                {
+                    stack.Pop();
+                }
+                else if (stack.Count > 0 && c == '}' && stack.Peek() == '{')
+                {
+                    stack.Pop();
+                }
+                else if (stack.Count > 0 && c == ']' && stack.Peek() == '[')
+                {
+                    stack.Pop();
+                }
+                else
+                {
+                    stack.Push(c);
+                }
+            }
+            return stack.Count == 0;
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(IsValid("(([]){})"));
+            Console.ReadLine();
         }
     }
 }
