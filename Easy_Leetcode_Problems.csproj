@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>MergeToSortedLists.MergeTwoSortedLists</StartupObject>
+    <StartupObject>Easy_Leetcode_Problems.RemoveDuplicatesfromSortedArray</StartupObject>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
