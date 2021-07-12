@@ -3,10 +3,6 @@
  * The relative order of the elements may be changed.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace Easy_Leetcode_Problems
 {
     class RemoveElement
