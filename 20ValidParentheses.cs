@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace Valid_Parentheses
 {
-    class Program
+    class Solution
     {
         static public bool IsValid(string s) {
 

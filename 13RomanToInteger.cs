@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace RomanToInt
 {
-    class Program
+    class Solution
     {
         static Dictionary<string, int> dict = new Dictionary<string, int>{
         {"I", 1},

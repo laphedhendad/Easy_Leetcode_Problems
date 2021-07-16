@@ -3,9 +3,9 @@
  * The relative order of the elements may be changed.
  */
 
-namespace Easy_Leetcode_Problems
+namespace RemoveElement
 {
-    class RemoveElement
+    class Solution
     {
         public int Remove_Element(int[] nums, int val)
         {

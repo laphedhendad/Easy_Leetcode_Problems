@@ -6,7 +6,7 @@ using System;
 
 namespace Longest_Common_Prefix
 {
-    class Program
+    class Solution
     {
         static public string LongestCommonPrefix(string[] strs)
         {

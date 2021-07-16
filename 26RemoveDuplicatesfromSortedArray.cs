@@ -6,9 +6,9 @@
  */
 using System;
 
-namespace Easy_Leetcode_Problems
+namespace RemoveDuplicates
 {
-    class RemoveDuplicatesfromSortedArray
+    class Solution
     {
         static public int RemoveDuplicates(int[] nums)
         {

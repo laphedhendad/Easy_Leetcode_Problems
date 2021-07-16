@@ -19,7 +19,7 @@ namespace MergeToSortedLists
             this.next = next;
         }
     }
-    class MergeTwoSortedLists
+    class Solution
     {
         static public ListNode MergeTwoLists(ListNode l1, ListNode l2)
         {

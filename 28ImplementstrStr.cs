@@ -2,9 +2,9 @@
  * Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
  */
 
-namespace Easy_Leetcode_Problems
+namespace ImplementStr
 {
-    class ImplementstrStr
+    class Solution
     {
         private int[] PrefixFunction(string s)
         {

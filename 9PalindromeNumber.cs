@@ -6,7 +6,7 @@ using System;
 
 namespace Palindrome_Number
 {
-    class Program
+    class Solution
     {
         static public bool IsPalindrome(int x)
         {

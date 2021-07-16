@@ -7,7 +7,7 @@ using System;
 
 namespace Reverse_Integer
 {
-    class Program
+    class Solution
     {
         static public int Reverse(int x)
         {
